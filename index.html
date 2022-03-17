@@ -26,11 +26,72 @@
 
 
     <header id="header_site">
-        <div class="top_header">
-            Sony
+
+        <div class="top_header p-2 text-end">
+            <img src="./assets/img/sony_logo.svg" alt="sony logo">
         </div>
         <div class="btm_header">
-            <nav>Barra di Navigazione</nav>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light position-relative">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/img/play_logo.svg" alt="" width="40" height="34">
+                    </a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                            <li class="nav-item dropdown position-static">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Giochi</a>
+                                <div class="dropdown-menu position-absolute-top-0-left-0 border-0 vw-100"
+                                    aria-labelledby="dropdownId">
+
+                                    <div class="d-flex justify-content-center align-items-center">
+
+                                        <a class="dropdown-item w-auto mh-50" href="#">
+                                            <div class="play_link text-center">
+                                                <img src="./assets/img/play-menu-ico.png" alt="">
+                                                <div class="div">Playstation 5</div>
+
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item w-auto" href="#">
+                                            <div class="play_link text-center">
+                                                <img src="./assets/img/play-menu-ico.png" alt="">
+                                                <div class="div">Playstation 4</div>
+
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item w-auto" href="#">
+                                            <div class="play_link text-center">
+                                                <img src="./assets/img/play-menu-ico.png" alt="">
+                                                <div class="div">Playstation 3</div>
+
+                                            </div>
+                                        </a>
+
+
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </li>
+                        </ul>
+                        <form class="d-flex my-2 my-lg-0">
+                            <input class="form-control me-sm-2" type="text" placeholder="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
         </div>
 
     </header>
@@ -38,34 +99,92 @@
 
     <main id="main_site">
 
-        <div class="jumbotron p-5 bg-light">
-            <div class="container">
-                <h1 class="display-3">Jumbo heading</h1>
-                <p class="lead">Jumbo helper text</p>
-                <hr class="my-2">
-                <p>More info</p>
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
-                </p>
+        <div class="jumbotron_returnal p-5 bg-light align-bottom text-white d-flex flex-column justify-content-end">
+            <div class="container ">
+
+                <div class="text-box pb-2">
+                    <h1 class="display-3">
+                        <img src="./assets/img/returnal-hero-banner-logo.png" alt="">
+                    </h1>
+                    <h2 class="my-4">Rompi il cerchio</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, quisquam, saepe, quia ducimus
+                        labore pariatur eaque culpa ullam maiores blanditiis ipsum nesciunt voluptatibus atque? Magnam?
+                    </p>
+                    <div>
+                        <a href="#">
+                            <button class="ps_btn text-white mt-2">
+                                Acquista ora
+                            </button>
+
+                        </a>
+
+                    </div>
+                </div>
+
+
             </div>
+
+
+
         </div>
 
         <!-- ./jumbotron -->
 
-        <div class="sliders container">
+        <div class="sliders_new container mt-5">
             <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
-                <div class="col">Lorem ipsum dolor sit amet.</div>
+
+                <div class="col">
+                    <div class="card selected">
+                        <img class="card-img" src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="returnal">
+
+                    </div>
+                </div>
+
                 <!-- /.col -->
-                <div class="col">Porro ex voluptas officia maxime!</div>
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img" src="./assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="returnal">
+
+                    </div>
+
+                </div>
                 <!-- /.col -->
-                <div class="col">Sunt, sed. Tempore, labore exercitationem.</div>
+
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img" src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="returnal">
+
+                    </div>
+                </div>
                 <!-- /.col -->
-                <div class="col">Dolores consequatur ratione asperiores aut.</div>
+
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img" src="./assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="returnal">
+
+                    </div>
+
+                </div>
                 <!-- /.col -->
-                <div class="col">Quasi nam ipsa sed error!</div>
+
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img" src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="returnal">
+
+                    </div>
+                </div>
                 <!-- /.col -->
-                <div class="col">A eos eius consequatur odit.</div>
+                
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img" src="./assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="returnal">
+
+                    </div>
+
+                </div>
                 <!-- /.col -->
+                
             </div>
             <!-- /.row-cols-2 row-cols-md-3 row-cols-lg-6 -->
         </div>
@@ -263,12 +382,12 @@
                     <!-- /.col -->
                     <div class="col">
                         Esse ex, illo quos officia earum nulla quam doloremque alias debitis, eligendi
-                       
-                    <!-- /.col -->
+
+                        <!-- /.col -->
+                    </div>
+                    <!-- /.row row-cols2 row-cols-md-4 -->
                 </div>
-                <!-- /.row row-cols2 row-cols-md-4 -->
-            </div>
-            <!-- /.container -->
+                <!-- /.container -->
         </section>
         <!-- /.media -->
 
