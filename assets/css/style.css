@@ -68,22 +68,31 @@ button {
     padding: 0.4rem 1rem;
 }
 
+.ps_btn:hover {
+    outline: 2px solid var(--ps-text-primary);
+    outline-offset: -4px;
+}
+
 .jumbotron_returnal .ps_btn {
     background-color: var(--ps-btn-red);
 }
-
 
 .selected {
     outline: 4px solid var(--ps-text-title);
     outline-offset: 2px;
 }
 
-
 .card {
     border: none;
 }
 
+.p_color {
+    color: var(--ps-text-light-title);
+}
 
+/* .ps_font_small{
+    font-size: 1rem;
+} */
 
 /* Header */
 
@@ -130,11 +139,26 @@ button {
     overflow: hidden;
 }
 
-
 .card:hover {
     display: block;
     transform: translateY(-30px);
 }
+
+.play5_title>h5 {
+    color: var(--ps-text-title);
+}
+
+/* Play5 */
+
+
+.col_30{
+    width: 30%;
+}
+
+.col_70{
+    width: 70%;
+}
+
 
 
 
@@ -144,6 +168,6 @@ button {
 
 @media screen and (min-width:992px) {
     .text-box {
-        width: 40%;
+        width: 35%;
     }
 }
