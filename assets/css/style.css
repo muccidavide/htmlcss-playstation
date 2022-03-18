@@ -22,6 +22,7 @@
     /* btn-4 */
     --ps-btn-lggrey: #D9DADC;
     /* btn-5 */
+    --ps-arrow-nav:#A1A1A1;
 
     /***** PERSONAL BACKGROUND COLORS  *****/
 
@@ -90,10 +91,6 @@ button {
     color: var(--ps-text-light-title);
 }
 
-/* .ps_font_small{
-    font-size: 1rem;
-} */
-
 /* Header */
 
 .top_header {
@@ -101,12 +98,35 @@ button {
 }
 
 .top_header>img {
-    max-height: 15px;
+    max-height: 14px;
 
 }
 
 .play_link>img {
     width: 50%;
+}
+
+.nav-link:hover{
+    color: var(--ps-text-primary);
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
+    border: none;
+}
+
+.dropdown-toggle::after {
+    border: none;
+    font: var(--fa-font-solid);
+    content: "\f107";
+    color: var(--ps-arrow-nav);
+    padding-left: 2px;
+    
+}
+
+.dropdown-toggle:active :after{
+    font: var(--fa-font-solid);
+    content: "\f106";
 }
 
 /* Main */
@@ -151,11 +171,11 @@ button {
 /* Play5 */
 
 
-.col_30{
+.col_30 {
     width: 30%;
 }
 
-.col_70{
+.col_70 {
     width: 70%;
 }
 
