@@ -22,7 +22,7 @@
     /* btn-4 */
     --ps-btn-lggrey: #D9DADC;
     /* btn-5 */
-    --ps-arrow-nav:#A1A1A1;
+    --ps-arrow-nav: #A1A1A1;
 
     /***** PERSONAL BACKGROUND COLORS  *****/
 
@@ -43,10 +43,10 @@
     border: #00439C solid 3px;
 } */
 
-.products_slider div,
+/* .products_slider div,
 .plus div[class^="col"] {
     border: #009c68 solid 3px;
-}
+} */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -64,6 +64,10 @@ button {
 /* Utility */
 
 
+.card {
+    border: none;
+}
+
 .ps_btn {
     border-radius: 20px;
     padding: 0.4rem 1rem;
@@ -74,8 +78,13 @@ button {
     outline-offset: -4px;
 }
 
-.jumbotron_returnal .ps_btn {
+.ps_btn_red {
     background-color: var(--ps-btn-red);
+}
+
+.ps_btn_blue {
+    background-color: var(--ps-btn-lgblue);
+    color: var(--ps-text-white);
 }
 
 .selected {
@@ -83,9 +92,10 @@ button {
     outline-offset: 2px;
 }
 
-.card {
-    border: none;
+.selected_under {
+    border-bottom: 3px solid var(--ps-text-title);
 }
+
 
 .p_color {
     color: var(--ps-text-light-title);
@@ -106,7 +116,7 @@ button {
     width: 50%;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: var(--ps-text-primary);
 }
 
@@ -121,10 +131,10 @@ button {
     content: "\f107";
     color: var(--ps-arrow-nav);
     padding-left: 2px;
-    
+
 }
 
-.dropdown-toggle:active :after{
+.dropdown-toggle:active :after {
     font: var(--fa-font-solid);
     content: "\f106";
 }
@@ -147,7 +157,7 @@ button {
 }
 
 .text-box {
-    width: 100%;
+    width: 70%;
 }
 
 /* Sliders_new */
@@ -159,7 +169,7 @@ button {
     overflow: hidden;
 }
 
-.card:hover {
+.sliders_new .card:hover {
     display: block;
     transform: translateY(-30px);
 }
@@ -168,18 +178,19 @@ button {
     color: var(--ps-text-title);
 }
 
+#product_slider a:hover .selection_under,
+#product_slider a:hover .selected_under {
+    border-bottom: 3px solid var(--ps-text-title);
+    opacity: 0.5;
+
+}
+
+#product_slider a:focus .selection_under {
+    border-bottom: 3px solid var(--ps-text-title);
+
+}
+
 /* Play5 */
-
-
-.col_30 {
-    width: 30%;
-}
-
-.col_70 {
-    width: 70%;
-}
-
-
 
 
 /* MediaQuery */

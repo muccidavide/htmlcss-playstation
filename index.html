@@ -271,13 +271,56 @@
                               <!-- ./nav-item -->
                         </ul>
                         <!-- Left nav -->
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 align-items-center">
                             <li class="nav-item">
-                                <a href="#">
+                                <a class="nav-link d-flex align-items-center dropdown-toggle text-dark" href="#" id="hardwareid" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">My PlayStation</a>
+                                <div class="dropdown-menu w-100"
+                                    aria-labelledby="haardwareid">
+
+                                    <div class="d-flex justify-content-center align-items-center">
+
+                                        <a class="dropdown-item w-auto mh-50" href="#">
+                                            <div class="play_link text-center">
+                                                <img src="./assets/img/play-menu-ico.png" alt="">
+                                                <div class="div">Playstation 5</div>
+
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item w-auto" href="#">
+                                            <div class="play_link text-center">
+                                                <img src="./assets/img/play-menu-ico.png" alt="">
+                                                <div class="div">Playstation 4</div>
+
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item w-auto" href="#">
+                                            <div class="play_link text-center">
+                                                <img src="./assets/img/play-menu-ico.png" alt="">
+                                                <div class="div">Playstation 3</div>
+
+                                            </div>
+                                        </a>
+                                    </div>
+
+
+
+
+                                </div>
+                            </li>
+                              <!-- ./nav-item -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
                                     <button class="ps_btn text-white mt-2 bg-dark">
                                         Accedi
                                     </button>
                                 </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <img height="20"src="./assets/img/lens.svg" alt="">
+                                </a>
+                               
                             </li>
                         </ul>
                     </div>
@@ -305,7 +348,7 @@
                     </p>
                     <div>
                         <a href="#">
-                            <button class="ps_btn text-white mt-2">
+                            <button class="ps_btn text-white mt-2 ps_btn_red">
                                 Acquista ora
                             </button>
                         </a>
@@ -390,13 +433,13 @@
                 </div>
                 <!-- /.play5_title -->
 
-                <div class="console row row-cols-1 row-cols-md-2 align-items-center justify-content-center">
-                    <div class="col col_30">
+                <div class="console row align-items-center justify-content-center">
+                    <div class="col-12 col-md-4 text-center text-md-start">
                         <h2>Console PlayStation 5</h2>
                         <p class="p_color py-3">Sperimenta la nuova generazione di incredibili giochi Playstation.</p>
                         <div>
                             <a href="#">
-                                <button class="ps_btn text-white mt-2">
+                                <button class="ps_btn ps_btn_blue mt-2">
                                     Acquista ora
                                 </button>
     
@@ -405,7 +448,7 @@
                         </div>
                     </div>
                     <!-- /.col -->
-                    <div class="col col_70">
+                    <div class="col-12 col-md-8">
                        <div class="card">
                            <img class="img-fluid"src="./assets/img/playstation-5-thumb.png" alt="">
                        </div>
@@ -414,25 +457,49 @@
                 </div>
                 <!-- /.console -->
 
-                <div class="products_slider row row-cols-3 row-cols-md-5">
+                <div class="products_slider row row-cols-3 row-cols-md-5" id="product_slider">
                     <div class="col">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, commodi!
+                        <a href="#">
+                            <div class="card selected_under">
+                                <img class="img-fluid" src="./assets/img/playstation-5-thumb.png" alt="">
+                            </div>
+                        </a>
+                        
                     </div>
                     <!-- /.col -->
                     <div class="col">
-                        Voluptatem quisquam vel hic odit architecto delectus unde ut at!
+                        <a class="" href="#">
+                            <div class="card selection_under ">
+                                <img src="./assets/img/joypad-thumb.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /.col -->
+
+                    <div class="col">
+                        <a class="" href="#">
+                            <div class="card selection_under ">
+                                
+                                <img src="./assets/img/headset-thumb.png" alt="">
+                            </div>
+                        </a>
                     </div>
                     <!-- /.col -->
                     <div class="col">
-                        Vel eos, hic quo minus ratione nesciunt tenetur eaque. Unde.
+                        <a class="" href="#">
+                            <div class="card selection_under ">
+                                <img src="./assets/img/remote-thumb.png" alt="">
+                            </div>
+                        </a>
                     </div>
                     <!-- /.col -->
                     <div class="col">
-                        Tempore officiis aperiam iure. Illo quod quidem ut aspernatur harum?
+                        <a class="" href="#">
+                            <div class="card selection_under ">
+                                <img src="./assets/img/camera-thumb.jpg" alt="">
+                            </div>
+                        </a>
                     </div>
-                    <!-- /.col -->
-                    <div class="col">Officiis, deserunt? Eveniet aliquam animi impedit, veniam doloribus voluptatem
-                        excepturi!</div>
                     <!-- /.col -->
                 </div>
                 <!-- /.products_slider row row-cols-3 row-cols-md-5 -->
