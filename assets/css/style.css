@@ -215,6 +215,12 @@ button {
     background-color: var(--ps-bg-out);
 }
 
+/* ps plus */
+
+.ps_plus{
+    background-color: var(--ps-bg-plus);
+}
+
 
 /* MediaQuery */
 
