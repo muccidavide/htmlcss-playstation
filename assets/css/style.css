@@ -63,10 +63,22 @@ button {
 
 /* Utility */
 
+.jumbotron {
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+}
 
 .card {
     border: none;
+    background-color: unset;
 }
+
+.card-body{
+    padding: 1rem 0;
+}
+
 
 .ps_btn {
     border-radius: 20px;
@@ -145,15 +157,10 @@ button {
 
 .jumbotron_returnal {
     background-image: url("../img/jumbo-bg.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 700px;
-    background-size: cover;
 }
 
-.jumbotron_returnal .display-3>img {
+.jumbotron_returnal .display-3>img{
     max-height: 60px;
-
 }
 
 .text-box {
@@ -174,6 +181,8 @@ button {
     transform: translateY(-30px);
 }
 
+/* Play5 */
+
 .play5_title>h5 {
     color: var(--ps-text-title);
 }
@@ -190,7 +199,21 @@ button {
 
 }
 
-/* Play5 */
+/* It takes two */
+
+.jumbotron_takes_two{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+.jumbotron_takes_two .display-3>img{
+    max-height: 9rem;
+}
+
+/* new_out */
+
+.new_out{
+    background-color: var(--ps-bg-out);
+}
 
 
 /* MediaQuery */
