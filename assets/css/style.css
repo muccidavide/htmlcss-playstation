@@ -99,6 +99,11 @@ button {
     color: var(--ps-text-white);
 }
 
+.ps_btn_light{
+    background-color: var(--ps-btn-lggrey);
+    color: var(--ps-text-title);
+}
+
 .selected {
     outline: 4px solid var(--ps-text-title);
     outline-offset: 2px;
@@ -219,6 +224,47 @@ button {
 
 .ps_plus{
     background-color: var(--ps-bg-plus);
+}
+
+.ps_now{
+    background-color: var(--ps-bg-now);
+}
+
+
+.media .card{
+    aspect-ratio: 1;
+    max-height: 200px;
+}
+
+/* Footer */
+
+#footer_site{
+    background-color: var(--ps-bg-footer);
+}
+
+.logo_footer{
+    object-fit: contain;
+    object-position: left;
+    max-height: 130px;
+    padding: 1rem 0 ;
+}
+
+.language_icon{
+    max-height: 25px;
+    padding-right: 1rem;
+}
+
+.links_footer a{
+ display:block; 
+ color: var(--ps-text-white);
+ margin-top: 0.5rem;  
+}
+
+.copyright>.col>img{
+    object-fit: contain;
+    object-position: left;
+    max-height: 100px;
+    padding-bottom: 2rem;
 }
 
 
