@@ -101,7 +101,7 @@ button {
 
 .ps_btn_light{
     background-color: var(--ps-btn-lggrey);
-    color: var(--ps-text-title);
+    color: var(--ps-btn-lgblue);
 }
 
 .selected {
@@ -203,6 +203,7 @@ button {
     border-bottom: 3px solid var(--ps-text-title);
 
 }
+
 
 /* It takes two */
 
