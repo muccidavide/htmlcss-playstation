@@ -48,6 +48,10 @@ a {
     color: var(--ps-text-primary);
 }
 
+a:hover {
+    color: unset;
+}
+
 button {
     border: none;
 }
@@ -86,13 +90,16 @@ h2{
     padding: 0.4rem 1rem;
 }
 
+ #main_site a[class*="ps_btn_"]{
+    display: inline-block;
+}
+
 .ps_btn_red {
     background-color: var(--ps-btn-red);
 }
 
 .ps_btn_blue {
     background-color: var(--ps-btn-lgblue);
-    color: var(--ps-text-white);
 }
 
 .ps_btn_light{
@@ -100,25 +107,28 @@ h2{
     color: var(--ps-btn-lgblue);
 }
 
+
+
 .ps_btn_red:hover {
-    outline: 2px solid var(--ps-btn-lggrey);
+    outline:  solid var(--ps-text-white);
     outline-offset: -4px;
 }
 
 .ps_btn_blue:hover {
-    outline: 2px solid var(--ps-text-white);
+    outline: solid var(--ps-text-white);
     outline-offset: -4px;
 }
 
 .ps_btn_light:hover {
-    outline: 2px solid var(--ps-btn-lgblue);
+    outline: solid var(--ps-btn-lgblue);
     outline-offset: -4px;
 }
 
 .ps_btn_light.text-dark:hover {
-    outline: 2px solid var(--ps-text-primary);
+    outline: solid var(--ps-text-primary);
     outline-offset: -4px;
 }
+
 
 .selected {
     outline: 4px solid var(--ps-text-title);
@@ -297,6 +307,7 @@ h2{
 
 
 /* MediaQuery */
+
 @media screen and (max-width:320px) {
 
     .jumbotron p{
