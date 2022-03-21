@@ -39,15 +39,6 @@
 
 /* General */
 
-/* div[class^="col"]{
-    border: #00439C solid 3px;
-} */
-
-/* .products_slider div,
-.plus div[class^="col"] {
-    border: #009c68 solid 3px;
-} */
-
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -89,7 +80,6 @@ h2{
     padding: 1rem 0;
 }
 
-
 .ps_btn {
     border-radius: 20px;
     padding: 0.4rem 1rem;
@@ -123,7 +113,6 @@ h2{
     border-bottom: 3px solid var(--ps-text-title);
 }
 
-
 .p_color {
     color: var(--ps-text-light-title);
 }
@@ -136,7 +125,6 @@ h2{
 
 .top_header>img {
     max-height: 14px;
-
 }
 
 .play_link>img {
@@ -147,21 +135,14 @@ h2{
     color: var(--ps-text-primary);
 }
 
-.dropdown-menu[data-bs-popper] {
-    margin-top: 0;
-    border: none;
-}
-
 .dropdown-toggle::after {
     border: none;
     font: var(--fa-font-solid);
     content: "\f107";
     color: var(--ps-arrow-nav);
-    padding-left: 2px;
-
 }
 
-.dropdown-toggle:active :after {
+.dropdown-toggle.show::after {
     font: var(--fa-font-solid);
     content: "\f106";
 }
