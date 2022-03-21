@@ -85,11 +85,6 @@ h2{
     padding: 0.4rem 1rem;
 }
 
-.ps_btn:hover {
-    outline: 2px solid var(--ps-text-primary);
-    outline-offset: -4px;
-}
-
 .ps_btn_red {
     background-color: var(--ps-btn-red);
 }
@@ -102,6 +97,26 @@ h2{
 .ps_btn_light{
     background-color: var(--ps-btn-lggrey);
     color: var(--ps-btn-lgblue);
+}
+
+.ps_btn_red:hover {
+    outline: 2px solid var(--ps-btn-lggrey);
+    outline-offset: -4px;
+}
+
+.ps_btn_blue:hover {
+    outline: 2px solid var(--ps-text-white);
+    outline-offset: -4px;
+}
+
+.ps_btn_light:hover {
+    outline: 2px solid var(--ps-btn-lgblue);
+    outline-offset: -4px;
+}
+
+.ps_btn_light.text-dark:hover {
+    outline: 2px solid var(--ps-text-primary);
+    outline-offset: -4px;
 }
 
 .selected {
