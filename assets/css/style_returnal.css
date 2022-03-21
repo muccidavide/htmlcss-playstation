@@ -1,0 +1,24 @@
+.jumbotron_returnal {
+    background-image: none;
+    height: auto;
+}
+
+.banner{
+    background-color: #091112;
+}
+
+.sliders_new .card{
+    max-height: unset;
+}
+
+.legend{
+    background-image: linear-gradient(#000000ad, #00000000), url("https://gmedia.playstation.com/is/image/SIEPDC/returnal-screen-06-ps5-15jun20-en?$1600px--t$");
+}
+
+/* MediaQuery */
+
+@media screen and (min-width:576px) {
+    .text-box{
+        display: block
+    }
+}
