@@ -78,6 +78,7 @@ h2 {
 
 .card {
     border: none;
+    border-radius: unset;
     background-color: unset;
 }
 
@@ -161,7 +162,6 @@ h2 {
 
 .navbar {
     background-color: var(--ps-text-white);
-    max-height: 50px;
     font-size: small;
 }
 
@@ -189,6 +189,10 @@ h2 {
 .dropdown-toggle.show::after {
     font: var(--fa-font-solid);
     content: "\f106";
+}
+
+.playstation_menu .dropdown-item{
+    width: unset;
 }
 
 /* #endregion Header */
@@ -337,9 +341,9 @@ h2 {
         padding-bottom: 1rem;
     }
 
-    .media .row-cols-2>.col {
+/*     .media .row-cols-2>.col {
         width: 100%;
-    }
+    } */
 
 
 }
@@ -362,5 +366,9 @@ h2 {
 
     .media .row {
         width: 75%;
+    }
+
+    .products_slider{
+        min-height: 300px;
     }
 }
